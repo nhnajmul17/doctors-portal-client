@@ -47,7 +47,7 @@ const BookingModal = ({ openBooking, handleBookingClose, booking, date, setBooki
         }
 
         //send to the server
-        fetch('http://localhost:5000/appointments', {
+        fetch('https://whispering-scrubland-26368.herokuapp.com/appointments', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
